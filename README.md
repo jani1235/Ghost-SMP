@@ -1,0 +1,2 @@
+# Ghost-SMP
+Minecraft smp
