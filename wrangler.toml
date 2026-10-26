@@ -1,0 +1,8 @@
+name = "ghostsmp-whitelist"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ghostsmp-whitelist"
+database_id = "VUL_HIER_JE_D1_DATABASE_ID_IN"

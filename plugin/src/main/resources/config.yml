@@ -1,0 +1,4 @@
+api:
+  base-url: "https://whitelist.ghostsmp.nl"
+  token: "VUL_HIER_JE_GEHEIME_API_TOKEN_IN"
+  poll-seconds: 30

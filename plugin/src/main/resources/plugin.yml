@@ -1,0 +1,13 @@
+name: GhostWhitelist
+version: 2.0.0
+main: nl.ghostsmp.whitelist.GhostWhitelist
+api-version: '1.21'
+author: GhostSMP
+commands:
+  gw:
+    description: Beheer whitelist aanvragen
+    usage: /gw <list|approve|deny|reload|sync>
+    permission: ghostwhitelist.staff
+permissions:
+  ghostwhitelist.staff:
+    default: op
