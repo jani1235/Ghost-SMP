@@ -1,0 +1,301 @@
+
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061024">
+  <meta name="description" content="Ontdek Ghost SMP: een gezellige Minecraft Hardcore SMP met avontuur, events en een actieve community.">
+  <title>Over GhostSMP | Hardcore</title>
+
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+      --bg: #050b19;
+      --panel: #0b1830;
+      --blue: #329bff;
+      --red: #fa424c;
+      --text: #f1f7ff;
+      --muted: #a9bdd9;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(
+        ellipse at 50% -15%,
+        #154891 0, #071a39 38%, #050b19 78%
+      );
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 17px max(4vw, 20px);
+      background: #050e20e8;
+      border-bottom: 1px solid #4e8fdb33;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-size: 22px;
+      font-weight: 950;
+    }
+
+    .brand span { color: var(--blue); }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    nav a {
+      color: #d3e8ff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+      padding: 10px 13px;
+      border-radius: 10px;
+    }
+
+    .store-btn {
+      background: linear-gradient(100deg, #329bff, #69bdff);
+      color: #041126;
+    }
+
+    main {
+      max-width: 950px;
+      margin: auto;
+      padding: 45px 20px 65px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 30px 0 45px;
+    }
+
+    .eyebrow {
+      color: #70b7ff;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(34px, 7vw, 58px);
+      line-height: 1.1;
+      margin: 15px 0;
+    }
+
+    h1 span { color: var(--blue); }
+
+    .intro {
+      color: var(--muted);
+      line-height: 1.8;
+      font-size: 17px;
+      max-width: 680px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: linear-gradient(150deg, #102344, #0a1429 75%);
+      border: 1px solid #377bce77;
+      border-radius: 18px;
+      padding: 25px;
+      box-shadow: 0 15px 45px #0004;
+    }
+
+    .card h2 {
+      margin: 0 0 12px;
+      font-size: 22px;
+    }
+
+    .card p, .card li {
+      color: var(--muted);
+      line-height: 1.75;
+    }
+
+    .card ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+
+    .join {
+      margin-top: 22px;
+      padding: 32px 20px;
+      text-align: center;
+      background: #102344;
+      border: 1px solid #377bce77;
+      border-radius: 18px;
+    }
+
+    .join p {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 7px;
+      padding: 13px 19px;
+      border-radius: 10px;
+      background: linear-gradient(100deg, #329bff, #69bdff);
+      color: #041126;
+      text-decoration: none;
+      font-weight: 900;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid #377bce;
+      color: #d3e8ff;
+    }
+
+    footer {
+      text-align: center;
+      color: #8fa8c8;
+      font-size: 13px;
+      padding: 25px 15px;
+      border-top: 1px solid #2b5b9b24;
+    }
+
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+      header { align-items: flex-start; }
+      nav { width: 100%; }
+      nav a { padding: 8px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="brand">
+      👻 Ghost<span>SMP</span>
+      <small style="font-size:11px;color:#ff656c">
+        HARDCORE
+      </small>
+    </div>
+
+    <nav>
+      <a href="/">Home</a>
+      <a href="#over">Over ons</a>
+      <a href="JOUW_STORE_LINK_HIER" class="store-btn">
+        🛒 Store
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="over">
+      <p class="eyebrow">Minecraft Hardcore Community</p>
+      <h1>Welkom bij <span>GhostSMP</span> 👻</h1>
+
+      <p class="intro">
+        Ben jij op zoek naar een gezellige Minecraft SMP-server?
+        Bij Ghost SMP staan plezier, avontuur en gezelligheid centraal.
+        Bouw je eigen base, ontdek de wereld, werk samen met andere
+        spelers en maak deel uit van onze groeiende community!
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>🔥 Hardcore SMP</h2>
+        <p>
+          Ga op avontuur, verzamel grondstoffen, bouw je eigen basis
+          en ontdek wat de wereld te bieden heeft. Overleven en
+          samenwerken maken jouw avontuur bijzonder.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>👥 Gezellige community</h2>
+        <p>
+          Ontmoet andere spelers, maak nieuwe vrienden en werk samen
+          aan projecten. Of je nu graag bouwt of op avontuur gaat:
+          je kunt je eigen speelstijl ontdekken.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>🎉 Events en avontuur</h2>
+        <p>
+          Doe mee aan leuke evenementen en beleef samen met andere
+          spelers nieuwe avonturen. Houd onze Discord in de gaten
+          voor nieuws en aankondigingen.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>🛡️ Actief staffteam</h2>
+        <p>
+          Heb je een vraag of heb je hulp nodig? Ons staffteam
+          staat klaar om je te helpen en bij te dragen aan een
+          fijne Minecraft-community.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>🚀 Een groeiende server</h2>
+        <p>
+          Word onderdeel van Ghost SMP en help mee aan onze
+          community. Speel samen, bouw iets moois en maak
+          nieuwe herinneringen.
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>💜 Waarom Ghost SMP?</h2>
+        <p>
+          Bij ons draait het om plezier, samenwerken en een
+          leuke Minecraft-ervaring. Jouw avontuur begint
+          wanneer jij besluit mee te doen!
+        </p>
+      </article>
+    </section>
+
+    <section class="join">
+      <h2>👻 Klaar om mee te doen?</h2>
+      <p>
+        Sluit je aan bij onze Discord-community en ontdek hoe
+        je jouw avontuur op Ghost SMP kunt beginnen.
+      </p>
+
+      <a class="btn"
+         href="https://discord.gg/ghost-smp"
+         target="_blank"
+         rel="noopener noreferrer">
+        💜 Join onze Discord
+      </a>
+
+      <a class="btn btn-secondary" href="/#aanmelden">
+        📝 Whitelist aanvragen
+      </a>
+
+      <a class="btn" href="JOUW_STORE_LINK_HIER">
+        🛒 Bezoek de Store
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © GhostSMP Hardcore · Minecraft-community 👻
+  </footer>
+</body>
+</html>
